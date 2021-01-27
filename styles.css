@@ -1,0 +1,27 @@
+body{
+    margin:0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: black;
+    font-family: 'Rubik', sans-serif;
+}
+.main,
+canvas{
+    display: block;
+}
+
+
+.time{
+    margin: 0px;
+    padding: 0px;
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 7em;
+    color: #edf8ff;
+    -ms-user-select: none;
+    user-select: none;
+    
+}
